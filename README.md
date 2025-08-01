@@ -2,7 +2,19 @@
 
 Una aplicación profesional de gestión de contactos desarrollada con **React.js**, **React Router** y **Context API**, que permite realizar operaciones CRUD completas (Crear, Leer, Actualizar, Eliminar) de forma moderna, escalable y eficiente.
 
----
+## 📘 ¿JavaScript o TypeScript?
+
+El proyecto está implementado mayoritariamente en **JavaScript**, pero fue generado con una plantilla de **Vite + React** que incluye por defecto archivos de configuración en **TypeScript**, como:
+
+- `vite.config.ts`
+- `tsconfig.json`
+- `tsconfig.node.json`
+
+GitHub detecta estos archivos `.ts` como TypeScript, por eso aparece en el resumen de tecnologías. **No se usó tipado estricto ni archivos `.tsx`**, pero el entorno está preparado para una futura migración a TypeScript si se desea.
+
+> ✅ *Esto no afecta el funcionamiento del proyecto, y es común en proyectos modernos scaffolded por Vite.*
+
+
 
 ## ⚙️ Tecnologías utilizadas
 
@@ -47,23 +59,6 @@ La lógica del CRUD está centralizada usando **Context API**, lo que permite:
 - Evitar prop drilling
 - Compartir estado y funciones entre vistas
 - Escalar la aplicación de manera limpia
-
----
-
-## 📘 ¿JavaScript o TypeScript?
-
-El proyecto está implementado mayoritariamente en **JavaScript**, pero fue generado con una plantilla de **Vite + React** que incluye por defecto archivos de configuración en **TypeScript**, como:
-
-- `vite.config.ts`
-- `tsconfig.json`
-- `tsconfig.node.json`
-
-GitHub detecta estos archivos `.ts` como TypeScript, por eso aparece en el resumen de tecnologías. **No se usó tipado estricto ni archivos `.tsx`**, pero el entorno está preparado para una futura migración a TypeScript si se desea.
-
-> ✅ *Esto no afecta el funcionamiento del proyecto, y es común en proyectos modernos scaffolded por Vite.*
-
----
-
 ## 🚀 Cómo ejecutar este proyecto localmente
 
 ```bash
