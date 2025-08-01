@@ -67,7 +67,7 @@ GitHub detecta estos archivos `.ts` como TypeScript, por eso aparece en el resum
 ## 🚀 Cómo ejecutar este proyecto localmente
 
 ```bash
-git clone https://github.com/PatsyBarcena/listasdecontactosbootcampRJ.git
+git clone https://github.com/zukunftwellefanzine/listadecontactosbootcamp
 cd listasdecontactosbootcampRJ
 npm install
 npm run dev
