@@ -68,6 +68,6 @@ GitHub detecta estos archivos `.ts` como TypeScript, por eso aparece en el resum
 
 ```bash
 git clone https://github.com/zukunftwellefanzine/listadecontactosbootcamp
-cd listasdecontactosbootcampRJ
+cd listasdecontactosbootcamp
 npm install
 npm run dev
