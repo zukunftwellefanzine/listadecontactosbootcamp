@@ -62,7 +62,7 @@ La lógica del CRUD está centralizada usando **Context API**, lo que permite:
 ## 🚀 Cómo ejecutar este proyecto localmente
 
 ```bash
-git clone https://github.com/zukunftwellefanzine/listadecontactosbootcamp
+git clone https://github.com/alejandrabarcena/listadecontactosbootcamp
 cd listasdecontactosbootcamp
 npm install
 npm run dev
